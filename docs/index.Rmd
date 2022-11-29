@@ -1,6 +1,6 @@
 ---
-title: "Your A4 Report Title (TODO: Revise title)"
-author: "Your Name"
+title: Identifying Harmful Trends in Policing
+author: Mynah Shetty
 date: '2022-11-01'
 output: html_document
 ---
@@ -11,7 +11,7 @@ source("../source/analysis.R")
 ```
 
 ## Abstract 
-[TODO: Include a short abstract (about 50 words)]
+In this assignment I dived deeper in to using data to identify potentially harmful trends jailing within the United States. I chose to focus more heavily on the effects of overpolicing on different race populations. I chose this focus because I recently have been learning more and more about inequalities in the American justice system and felt I could delve deeper in this interest through this assignment.
 
 # Test (TODO: Remove before submission!!)
 ```{r echo=FALSE}
@@ -34,10 +34,10 @@ print(sum)
 ```
 
 ## Introduction 
-[TODO]
+This data set allows users to delve in to a lot of patterns found in policing throughout the United States. I decided to focus on patterns related to race as I felt that those issues are some of the largest social problems America is currently facing. The county data set reveals prison populations by race by county. This section of the data set was especially telling to me. Just looking at the data you can see that incarceration rates for African American and Latinx communities was diproportionally much larger than other races. The overpolicing of communities that are majority African American and Latinx unfortunately negatively effects a lot of stakeholders. Friends, Family, and Entire communities lives are changed due to overpolicing. In section 2 of my assignment I plotted changes to the black population and the white population of jails in the past 20 years in LA County (the county in the U.S with the highest jail population). In section 5, I made a line chart that illustrates changes to aapi, black, latinx, native and white jail populations in LA County. And, in part 6, I charted the rates of jailing in each state to be able to visualize overpolicing.
 
 ## Data Summary 
-[TODO]
+For the Data Summary, I decided to first find the county with the highest current African American jail population, then compare the rates of jailing of African Americans and White people in this county in the past 20 years. I found that LA County is the county with the current highest African American jail population. I then plotted both African American jail rates , and White jail rates in the past 20 years. I found that the rates for African Americans was about double of the White population rates. I also found that African American jail rates have been evaning out in recent years, while White jail rates have been increasing slowly.
 
 [TODO ... other sections ... See Canvas for details]
 
